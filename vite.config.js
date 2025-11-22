@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // This MUST match your repository name exactly (including the typo 'expese')
-  base: "/expese_tracker/",
+  base: "/expense_tracker/",
 })
