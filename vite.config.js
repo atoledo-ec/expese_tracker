@@ -4,6 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // This MUST match your repository name exactly (including the typo 'expese')
-  base: "/expense_tracker/",
+  base: './', // Use relative paths so it works when opening HTML directly
 })
